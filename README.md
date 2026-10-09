@@ -1,6 +1,6 @@
 # Agent Workflow Starter
 
-**A reusable starting point for projects developed with AI agents.** Version 1.0, 10 October 2026.
+**A reusable starting point for projects developed with AI agents.**
 
 This kit turns the principles from a recording of Lauren Tan's approximately one-hour Zoom workshop into a project-independent operating system for development: agents can understand the product, exercise it, verify their changes, work within enforced boundaries, and earn progressively wider autonomy. It works with one agent or a team, locally or in a hosted environment, without requiring a particular model, editor, agent framework, or programming language.
 
