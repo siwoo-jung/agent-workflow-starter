@@ -8,7 +8,7 @@ An agent must be able to run the actual product and inspect the outcome. Source 
 
 ## Control capability and product knowledge
 
-Lauren's verification approach combines application control with a feature map. Preserve this distinction:
+In the workshop, Lauren's verification approach combines application control with a feature map. Preserve this distinction:
 
 | Artifact | Question it answers |
 |---|---|
