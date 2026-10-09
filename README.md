@@ -2,7 +2,7 @@
 
 **A reusable starting point for projects developed with AI agents.** Version 1.0, 10 October 2026.
 
-This kit turns the principles in the supplied Lauren Tan talk transcript into a project-independent operating system for development: agents can understand the product, exercise it, verify their changes, work within enforced boundaries, and earn progressively wider autonomy. It works with one agent or a team, locally or in a hosted environment, without requiring a particular model, editor, agent framework, or programming language.
+This kit turns the principles from a recording of Lauren Tan's approximately one-hour Zoom workshop into a project-independent operating system for development: agents can understand the product, exercise it, verify their changes, work within enforced boundaries, and earn progressively wider autonomy. It works with one agent or a team, locally or in a hosted environment, without requiring a particular model, editor, agent framework, or programming language.
 
 The core loop is **inspect → reproduce or specify → implement → verify → review → integrate → learn**. Documents provide context; executable checks and repository controls enforce the important constraints. Installing these documents alone does not install tooling or make a project ready for unattended merging.
 
@@ -42,7 +42,7 @@ Authorized external actions: [for example: create branches and PRs in this repo]
 | [05 — Skills and evaluations](docs/agent-workflow/05-skills-and-evals.md) | Improving reusable procedures and testing agent behavior |
 | [06 — Automation](docs/agent-workflow/06-automation.md) | Hosted workers, event intake, review, merge eligibility, and recovery |
 | [07 — Maintenance](docs/agent-workflow/07-maintenance.md) | Keeping context current and converting failures into improvements |
-| [Source notes](docs/agent-workflow/source-notes.md) | What comes from the talk and what this kit adds |
+| [Source notes](docs/agent-workflow/source-notes.md) | What comes from the workshop and what this kit adds |
 | [Template index](templates/agent-workflow/README.md) | Copy destinations and fillable project records |
 
 ## The layers
@@ -69,4 +69,4 @@ Keep the universal playbook separate from `docs/project/`, where the project's f
 
 ## Provenance
 
-This is an original synthesis based on the user-provided `script.txt` transcript, not Lauren Tan's actual PStack files, Dune implementation, or an official distribution. The video URL and title were not supplied. See [Source notes](docs/agent-workflow/source-notes.md) for attribution and limits. The source transcript is not bundled.
+This is an original synthesis based on a recording of an approximately one-hour Zoom workshop led by Lauren Tan, not Lauren Tan's actual PStack files, Dune implementation, or an official distribution. The workshop video itself is not bundled, and its title, URL, and date are not included in this repository. See [Source notes](docs/agent-workflow/source-notes.md) for attribution and limits.
