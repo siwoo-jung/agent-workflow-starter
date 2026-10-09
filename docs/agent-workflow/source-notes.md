@@ -2,13 +2,13 @@
 
 ## Source used
 
-The source is the user-provided `script.txt` YouTube talk transcript supplied with this task. It is an unstructured transcript with transcription errors and inconsistent product names. The video title, URL, date, timestamps, original slides, and original repository files were not supplied. This kit therefore attributes ideas to the supplied talk without claiming exact filenames or implementation details beyond those explicitly mentioned.
+The source is a recording of an approximately one-hour workshop led by Lauren Tan over Zoom. The workshop video title, URL, date, timestamps, original slides, and original repository files are not included in this repository. This kit therefore attributes ideas to the workshop without claiming exact filenames or implementation details beyond those discussed there.
 
-The previous chat summary helped identify the requested scope, but the transcript was read directly to ground the adaptation. The transcript is not redistributed in this kit. This is an original practical synthesis, not an official Lauren Tan document or a copy of PStack.
+This is an original practical synthesis based on the workshop, not an official Lauren Tan document or a copy of PStack. The workshop video itself is not redistributed in this kit.
 
-## Talk-to-kit mapping
+## Workshop-to-kit mapping
 
-| Idea in the supplied talk | Treatment in this kit |
+| Idea in the workshop | Treatment in this kit |
 |---|---|
 | Verification is foundational; the agent should run the actual software | Verification contract, exercised journeys, setup/control/reset recipes |
 | `control-glass` gave agents application control | Generic control runbook plus runtime-specific capability adapter |
@@ -30,9 +30,9 @@ The previous chat summary helped identify the requested scope, but the transcrip
 
 ## Additions made for a reusable system
 
-The talk explains principles and examples rather than a complete cross-platform installation protocol. This kit adds explicit bootstrap sequencing, copy destinations, revision-bound evidence, check status semantics, authority records, deduplication/claims, timeout and budget controls, held-out evaluations, policy-change separation, missing/skipped-check treatment, recovery rehearsals, and migration guidance. These are engineering recommendations introduced here, not claims about Lauren's exact implementation.
+The workshop explains principles and examples rather than a complete cross-platform installation protocol. This kit adds explicit bootstrap sequencing, copy destinations, revision-bound evidence, check status semantics, authority records, deduplication/claims, timeout and budget controls, held-out evaluations, policy-change separation, missing/skipped-check treatment, recovery rehearsals, and migration guidance. These are engineering recommendations introduced here, not claims about Lauren's exact implementation.
 
-All filenames apart from names explicitly mentioned in the transcript are this kit's design. The templates are intentionally unpopulated. Any tool commands, paths, selectors, protections, or thresholds must be established against the future project's actual environment.
+All filenames apart from names explicitly mentioned in the workshop are this kit's design. The templates are intentionally unpopulated. Any tool commands, paths, selectors, protections, or thresholds must be established against the future project's actual environment.
 
 ## Limits
 
