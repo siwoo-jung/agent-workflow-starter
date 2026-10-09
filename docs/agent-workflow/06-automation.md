@@ -14,7 +14,7 @@ Each stage applies to a declared change class, repository, and environment. A pr
 | 3 — Automated review and repair | Agents review and repair findings; required merge reviewer remains | Review evals, bounded repair, independent audits |
 | 4 — Scoped automatic merge | Eligible changes merge after all gates | Explicit owner policy, verified repository controls, final-revision evidence, recovery drill |
 
-These stages are this kit's operationalization, not a numbered system published in the talk. No particular number of PRs or agents is a success criterion. Increase throughput only while escaped defects, recovery time, human intervention, and cost remain acceptable.
+These stages are this kit's operationalization, not a numbered system presented in the workshop. No particular number of PRs or agents is a success criterion. Increase throughput only while escaped defects, recovery time, human intervention, and cost remain acceptable.
 
 ## Event-to-PR flow
 
